@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    overflow-x: hidden;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to right top, #5eecb4, #46b186);
+    height: 100vh;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 568px;
+    height: 568px;
+
+}
+
+.mole {
+    background: url("../images/mole.png") no-repeat center center/cover;
+}
+
+@media (max-width: 370px){
+    .square {
+        width: 100px;
+        height: 100px;
+    }
+
+    .grid {
+
+        width: 318px;
+        height: 318px;
+    
+    }
+}
