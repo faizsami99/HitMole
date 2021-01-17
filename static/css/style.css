@@ -39,7 +39,7 @@ body {
     background: url("../images/mole.png") no-repeat center center/cover;
 }
 
-@media (max-width: 370px){
+@media (max-width: 480px){
     .square {
         width: 100px;
         height: 100px;
