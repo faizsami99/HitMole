@@ -51,4 +51,7 @@ body {
         height: 318px;
     
     }
+    body {
+        overflow: hidden;
+    }
 }
